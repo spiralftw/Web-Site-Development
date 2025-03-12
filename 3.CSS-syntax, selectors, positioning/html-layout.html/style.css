@@ -1,0 +1,28 @@
+header li {
+    display: inline; /* Makes list items appear in one line */
+    margin-right: 10px; /* Adds spacing between list items (optional) */
+    margin-left: 10px; /* Adds spacing between list items (optional) */
+}
+
+main {
+    float: left;
+    width: 75%;
+    left: 0;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    right: 0;
+}
+
+article {
+    float: left;
+    width: 75%;
+}
+
+footer {
+    text-align: center;
+    clear: both; /* Ensures footer is below floated elements */
+    width: 100%;
+}

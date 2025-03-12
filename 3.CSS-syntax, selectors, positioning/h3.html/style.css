@@ -1,0 +1,38 @@
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: grid; /* Use grid layout for positioning */
+  grid-template-columns: 50vw 50vw; /* Two columns, each taking half the viewport width */
+  grid-template-rows: 50vh 50vh; /* Two rows, each taking half the viewport height */
+  height: 100vh; /* Ensure body takes up full viewport height */
+  width: 100vw; /* Ensure body takes up full viewport width */
+  
+}
+
+#A {
+    grid-column: 1 / 2; /* First column */
+    grid-row: 1 / 2; /* First row */
+    border: 1px solid blue; /* Define border for divs */
+    box-sizing: border-box; /* Include border width in element width/height */
+}
+
+#B {
+    grid-column: 2 / 3; /* Second column */
+    grid-row: 1 / 2; /* First row */
+    border: 1px solid blue; /* Define border for divs */
+    box-sizing: border-box; /* Include border width in element width/height */
+}
+
+#C {
+    grid-column: 1 / 2; /* First column */
+    grid-row: 2 / 3; /* Second row */
+    border: 1px solid blue; /* Define border for divs */
+    box-sizing: border-box; /* Include border width in element width/height */
+}
+
+#D {
+    grid-column: 2 / 3; /* Second column */
+    grid-row: 2 / 3; /* Second row */
+    border: 1px solid blue; /* Define border for divs */
+    box-sizing: border-box; /* Include border width in element width/height */
+}
