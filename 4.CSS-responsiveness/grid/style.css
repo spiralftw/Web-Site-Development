@@ -1,0 +1,42 @@
+body {
+  margin: 2.5em;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 0.625em;
+  background-color: #fff;
+  color: #444;
+}
+
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+.box.a {
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.box.d {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row: 1;
+}
+
+.box.b {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.box.c {
+  grid-column: 2;
+  grid-row: 3
+}
+

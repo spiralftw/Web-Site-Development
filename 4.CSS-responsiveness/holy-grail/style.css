@@ -1,0 +1,21 @@
+.container {
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  display: flex;
+}
+
+.swot {
+  border-color: blue;
+  border-style: groove;
+  margin: 1px;
+  text-align: center;
+  flex: 1;
+}
+
+.content-container .swot:nth-child(2) {
+  flex: 2;
+}
